@@ -1,0 +1,4 @@
+bookset
+test
+*.hdf5
+*.pyc
