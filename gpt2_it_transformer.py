@@ -5,8 +5,8 @@ model = AutoModelWithLMHead.from_pretrained("LorenzoDeMattei/GePpeTto")
 
 text_generator = pipeline('text-generation', model=model, tokenizer=tokenizer)
 prompts = [
-    "Harry vide Malfoy che percorreva il corridoio con fare sospetto; non",
-    ""
+    "12 + 12 =",
+    "12 elevato 2 = "
 ]
 
 
